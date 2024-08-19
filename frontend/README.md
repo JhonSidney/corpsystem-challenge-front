@@ -1,24 +1,20 @@
 # frontend
+Para Executar o projeto faça o download e após baixar acesse a pasta FRONTEND, execute os seguintes passos abaixo:
 
-## Project setup
-```
-npm install
-```
+## Instalação
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### 1. Instalar Node.js
+- node -v
+- npm -v
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 2. Instalar Vue CLI (Opcional)
+- npm install -g @vue/cli
 
-### Lints and fixes files
-```
-npm run lint
-```
+#### 3. Navegar para o Diretório do Projeto
+- cd corpsystem-challenge-front/frontend
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 4. Instalar Dependências
+- npm install
+
+#### 6. Executar o Projeto
+- npm run serve

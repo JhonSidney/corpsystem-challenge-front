@@ -101,7 +101,7 @@ export default {
   methods: {
     async getCustomers() {
       try {
-        const response = await axios.get('http://127.0.0.1:8002/api/v1/customers/');
+        const response = await axios.get('http://127.0.0.1:8000/api/v1/customers/');
         this.apiData = response.data;
       } catch (error) {
         console.error('Erro ao buscar dados da API:', error);

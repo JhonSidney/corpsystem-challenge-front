@@ -76,7 +76,7 @@
 
         try {
             
-            const response = await axios.post('http://127.0.0.1:8002/api/v1/customers/create/', jsonData);
+            const response = await axios.post('http://127.0.0.1:8000/api/v1/customers/create/', jsonData);
             console.log(response)
             console.log('Dados enviados com sucesso:', response.data);
         } catch (error) {
